@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Notes compose</string>
+    <string name="note_list_title">Notes</string>
+    <string name="create_note_title">Create note</string>
+    <string name="edit_note_title">Edit note</string>
+    <string name="edit_note_last_update_timestamp">Last edit: %s</string>
+    <string name="edit_note_discard_changes">Discard changes?</string>
+    <string name="note_content_title_placeholder">Title</string>
+    <string name="note_content_text_placeholder">Text</string>
+</resources>

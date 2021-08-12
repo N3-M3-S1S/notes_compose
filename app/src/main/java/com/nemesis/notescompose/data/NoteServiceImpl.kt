@@ -14,9 +14,9 @@ class NoteServiceImpl @Inject constructor(private val noteDao: NoteDao) : NoteSe
         noteDao.save(noteEntity)
     }
 
-    override suspend fun updateNote(title: String, text: String, id: Int) {
+    override suspend fun updateNote(title: String, text: String, noteId: Int) {
         val noteEntity = NoteEntity(title.trim(), text.trim(), getCurrentTimestamp())
-        noteEntity.id = id
+        noteEntity.id = noteId
         noteDao.update(noteEntity)
     }
 
